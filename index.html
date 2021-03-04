@@ -1,0 +1,135 @@
+<head>
+    <title>Rent a Car Ledion </title>
+    <link rel="icon" href="Image/logo simbol.png">
+    <link rel="stylesheet" type="text/css" href="Css/body.css">
+    <link rel="stylesheet" type="text/css" href="Css/header.css">
+    <link rel="stylesheet" type="text/css" href="Css/formsstyle.css">
+    <script src="/JS/style.js" type="text/javascript"></script>
+    <script src="https://kit.fontawesome.com/b54faddf94.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Roboto?query=Roboto">
+
+    
+</head>
+<body>
+    <header>
+    <img style="height: 100px;" class="headerlogo" src="Image/logo lanscape.png">
+
+    <div> 
+        <ul>
+ <li><a href="#" class="nav-link">Home</a></li>
+ <li><a href="Pages/cars.html" >Cars</a></li>
+<li><a href="Pages/ourservices.html" >Our Services</a></li>
+<li><a href="Pages/aboutus.html" >About Us </a></li>
+<li><a href="Pages/contactus.html" >Contact Us </a></li>
+<br><br>
+<a href="/Pages/login.html"><button style="background-color: rgb(154, 255, 151);"  class="button-l-r" >LOGIN NOW <i class="fas fa-sign-in-alt"></i> </button></a>
+<a href="Pages/register.html"><button  style="background-color: rgb(149, 222, 255);" class="button-l-r">REGISTER NOW <i class="fas fa-external-link-square-alt"></i></button></a>
+        </ul>
+    </div>
+    </header>
+    <br>
+    <section class="banner" >
+        <img style="height: 300px; border-radius: 20px;"  src="Image/banner.png" alt="Banner of Keys">
+    </section>
+
+    <br><br>
+    <div class="boody-1">
+ 
+        <div class="main-agile">
+            <form action="Pages/thankyou.html" method="post">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input  id="datepicker" name="Text" type="date" value="Pick-up Date" input type="Date"  name="start date" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Pick-up Date';}" required="">
+                <input  id="datepicker1" class="cal2" name="Text" type="date" value="Drope-off Date" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Drope-off Date';}" required="">
+                <br><br><br>
+                <input  type="text"  class="hname" name="name" placeholder="City of Pick-up:" required="">
+                <select class="num">
+                    <option value="Type of Cars:">Type of Cars:</option>
+                    <option value="BMW X6">BMW X6</option>
+                    <option value="BMW X3">BMW X3</option>
+                    <option value="BMW X4">BMW X4</option>
+                    <option value="BMW 5">BMW 5</option>
+                    <option value="BMW X5">BMW X5</option>
+                    <option value="Audi A7 ">Audi A7 </option>
+                    <option value="Audi A8">Audi A8</option>
+                    <option value="Audi TT">Audi TT</option>
+                    <option value="Audi R8">Audi R8</option>
+                    <option value="Audi Q5">Audi Q5</option>
+                    <option value="Mercedes-Benz GLA Class">Mercedes-Benz GLA Class</option>
+                    <option value="Mercedes-Benz SL Class">Mercedes-Benz SL Class</option>
+                    <option value="Mercedes-Benz A Class">Mercedes-Benz A Class</option>
+                    <option value="Mercedes-Benz B Class">Mercedes-Benz B Class</option>
+                    <option value="Mercedes-Benz CLA Class">Mercedes-Benz CLA Class</option>
+                    <option value="Mercedes-Benz E Class">Mercedes-Benz E Class</option>
+                    <option value="Volkswagen Golf 8">Volkswagen Golf 8</option>
+                    <option value="Volkswagen Golf 7">Volkswagen Golf 7</option>
+                    <option value="Volkswagen Golf 6">Volkswagen Golf 6</option>
+                    <option value="Volkswagen Golf 5">Volkswagen Golf 5</option>
+                    <option value="Volkswagen Touran ">Volkswagen Touran </option>
+                    <option value="Volkswagen Passat">Volkswagen Passat</option>
+                    <option value="Volkswagen Tiguan">Volkswagen Tiguan</option>
+                    <option value="Ford C-MAX">Ford C-MAX</option>
+                    <option value="Ford Fiesta">Ford Fiesta</option>
+                    <option value="Jeep Grand Cherokee">Jeep Grand Cherokee</option>
+                    <option value="Jeep Renegade">Jeep Renegade</option>
+                    <option value="Jeep Wrangler">Jeep Wrangler</option>
+                    <option value="Kia K900 ">Kia K900 </option>
+                    <option value="Kia Stinger">Kia Stinger</option>
+                    <option value="Nissan Patrol">Nissan Patrol</option>
+                    <option value="Nissan Juke">Nissan Juke</option>
+                    <option value="Peugeot 508">Peugeot 508</option>
+                    <option value="Dacia Dokker Van">Dacia Dokker Van</option>
+                    <option value="Dacia Lodgy ">BMW X3</option>
+                    <option value="Dacia Duster">BMW X4</option>
+                    <option value="Honda CR-V ">Honda CR-V</option>
+                    <option value="Honda Avancier">Honda Avancier</option>
+                    <option value="Range Rover Evoque ">Range Rover Evoque </option>
+                    <option value="Land Rover Discovery">Land Rover Discovery</option>
+                    <option value="Range StormerT">Range Stormer</option>
+                    <option value="Mini Countryman">Mini Countryman</option>
+                    <option value="Mini Cooper S Clubman">Mini Cooper S Clubman</option>
+                    <option value="Opel Astra">Opel Corsa</option>
+                    <option value="Opel Corsa">Opel Corsa</option>
+                </select>
+                <input  type="text"  class="fname" name="First name" placeholder="First name" required="" onfocus="myFunction(this)">
+                <input  type="text"  class="lname" name="Last name" placeholder="Last name" required=""  onfocus="myFunction(this)">
+                <input  type="text"  class="pnum" name="Phone number" placeholder="Phone number" required="" onfocus="myFunction(this)">
+                <input  type="text"  class="email" name="Email" placeholder="Email" required="" onfocus="myFunction(this)"><br>
+                <input  type="submit" value="Send Enquiry">
+            </form>
+            <a></a>
+            
+    </div>
+
+    <footer class="footer-distributed">
+        
+        <img src="Image/logo lanscape.png" width="300px" height="auto"  >
+        <div class="footer-right">
+            <a href="https://www.linkedin.com/"> <img src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-linkedin-circle-512.png" width="40px" height="40px"></i></a>
+            <a href="https://www.instagram.com/"> <img src="https://cdn3.iconfinder.com/data/icons/popular-services-brands/512/instagram-512.png" width="40px" height="40px"></a>
+            <a href="https://www.twitter.com/"> <img src="http://icons.iconarchive.com/icons/ampeross/smooth/512/Twitter-icon.png" width="40px" height="40px"></a>
+            <a href="https://www.facebook.com/"><img src="https://cdn.freebiesupply.com/logos/large/2x/facebook-logo-2019.png" width="40px" height="40px"> </a>
+
+
+        </div>
+
+        <div class="footer-left">
+                    
+            <p class="footer-links">
+                <a class="link-1" href="#">Home</a>
+
+                <a href="Pages/ourservices.html" >Services</a>
+
+                <a href="Pages/cars.html" >Cars</a>
+
+                <a href="Pages/aboutus.html" >About</a>
+
+
+                <a href="Pages/contactus.html" >Contact</a>
+            </p>
+
+            <p>Rent a Car Ledion &copy; 2020</p>
+        </div>
+
+    </footer>
+
+</body>
